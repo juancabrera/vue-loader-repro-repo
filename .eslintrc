@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "vue", 
+    "ssense/client"
+  ],
+  plugins: [
+    "vue"
+  ]
+}
