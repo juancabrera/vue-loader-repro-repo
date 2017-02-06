@@ -2223,7 +2223,7 @@ html-tags@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/html-tags/-/html-tags-1.1.1.tgz#869f43859f12d9bdc3892419e494a628aa1b204e"
 
-htmlparser2@^3.8.2:
+htmlparser2@^3.8.2, htmlparser2@^3.9.1:
   version "3.9.2"
   resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-3.9.2.tgz#1bdf87acca0f3f9e53fa4fcceb0f4b4cbb00b338"
   dependencies:
@@ -4480,6 +4480,12 @@ stylelint-config-standard@^16.0.0:
   version "16.0.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-16.0.0.tgz#bb7387bff1d7dd7186a52b3ebf885b2405d691bf"
 
+stylelint-processor-html@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-processor-html/-/stylelint-processor-html-1.0.0.tgz#6892b6b2855a45f0291cd845191d6908130a2918"
+  dependencies:
+    htmlparser2 "^3.9.1"
+
 stylelint@^7.8.0:
   version "7.8.0"
   resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-7.8.0.tgz#ac701044ed03c44f7a9f73d4d5dc1bd1eaae12d1"
@@ -4806,9 +4812,9 @@ vue-hot-reload-api@^2.0.1, vue-hot-reload-api@^2.0.8:
   version "2.0.8"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.0.8.tgz#b3ba6a9a443d561b14f2785c8ea056618cb2faa3"
 
-vue-loader@^10.2.0:
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-10.2.0.tgz#6287b24d02fe68c6b7523820e4ef636ff07d6f2b"
+vue-loader@^10.3.0:
+  version "10.3.0"
+  resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-10.3.0.tgz#436421736e9ad0f1c481330327c376963db86a19"
   dependencies:
     consolidate "^0.14.0"
     hash-sum "^1.0.2"

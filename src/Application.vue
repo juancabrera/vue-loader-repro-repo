@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import MyCmp from "./components/MyCmp.vue";
+import MyCmp from "./components/MyCmp.vue"
 
 export default {
   components: {
